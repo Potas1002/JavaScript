@@ -1,0 +1,64 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function okno_zamknij_krajewski() {
+            window.close()
+        }
+        29
+    </script>
+</head>
+<body>
+<form>
+<textarea name="Krajewski" cols="120" rows="30" readonly>
+<!DOCTYPE html> 
+ <head> 
+ <title> Użycie fukcji </title> 
+ <meta charset="utf-8"> 
+ </head> 
+<body>
+ <div style="color:navy;font-size:50px;">
+ <script language="JavaScript">
+ 
+ let a=parseFloat(prompt("a=",""));
+ let b=parseFloat(prompt("b=",""));
+ 
+ 
+ function monzenie_kra(a, b) 
+ {
+ return a * b;
+ }
+ function odejmowanie_kra(a, b) 
+ {
+ return a - b;
+ }
+ function do_kwadratu_kra(a, b) 
+ {
+ return a*a;
+ return b*b;
+ } 
+ function reszta_z_dzielenia_a_przez_b_kra(a, b) 
+ {
+ return a % b;
+ }
+ function suma_kra(a, b) 
+ {
+ return a + b;
+ }
+ document.write("podane liczby: a="+a+"  "+"b="+b+"<br>");
+ document.write("suma="+suma_kra(a,b)+"<br>");
+ document.write("mnożenie="+monzenie_kra(a,b)+"<br>");
+ document.write("odejmowanie="+odejmowanie_kra(a,b)+"<br>");
+ document.write("do kwadratu="+do_kwadratu_kra(a)+"<br>");
+ document.write("do kwadratu="+do_kwadratu_kra(b)+"<br>");
+ document.write("reszta z dzielenia a przez b = "+reszta_z_dzielenia_a_przez_b_kra(a,b)+"<br>");
+</script>
+</div>
+</body>
+</html>
+</textarea>
+    </form>
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_krajewski()" />
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
