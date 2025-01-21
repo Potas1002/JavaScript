@@ -1,0 +1,43 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function okno_zamknij_krajewski() {
+            window.close()
+        }
+        29
+    </script>
+</head>
+<body>
+<form>
+<textarea name="Krajewski" cols="120" rows="30" readonly>
+<!DOCTYPE html> 
+ <head> 
+ <title> Ile sekund</title> 
+ <meta charset="utf-8"> 
+ </head> 
+<body>
+<div style="color:red;font-size:50px;">
+ <script language="JavaScript">
+let D1_kra=prompt("D1_kra=","");
+let D2_kra=prompt("D2_kra=","");
+let ile_sekund_kra;
+ let a=parseFloat(D1_kra);
+ let b=parseFloat(D2_kra);
+ile_sekund_kra=(D1_kra-D2_kra)*24*3600;
+
+ document.write("dzień1="+D1_kra+"<br>");
+ document.write("dzień2="+D2_kra+"<br>");
+ document.write("sekund="+ile_sekund_kra+"sek"+"<br>");
+
+
+ </script>
+</div>
+ </body> 
+</html>
+</textarea>
+    </form>
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_krajewski()" />
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
