@@ -1,0 +1,47 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function okno_zamknij_krajewski() {
+            window.close()
+        }
+        29
+    </script>
+</head>
+<body>
+<form>
+<textarea name="Krajewski" cols="120" rows="30" readonly>
+<!DOCTYPE html>
+ <head>
+ <title> </title>
+ <meta charset="utf-8">
+ </head>
+<body>
+<div style="color:navy;font-size:100px;">
+ <script language="JavaScript">
+let A=prompt("A=","");
+let A_kra=parseFloat(A);
+let B=prompt("B=","");
+let B_kra=parseFloat(B);
+
+let C_kra=A_kra*A_kra*A_kra;
+let D_kra=3*A_kra*A_kra*B_kra;
+let E_kra=3*A_kra*B_kra*B_kra;
+let F_kra=B_kra*B_kra*B_kra;
+let O_kra=C_kra+D_kra+E_kra+F_kra;
+
+document.write("A="+A_kra+" "+"B="+B_kra+"<br>");
+document.write("("+A_kra+"+");
+document.write(B_kra+")^3=");
+document.write(A_kra+"^3 + 3*(("+A_kra+")^"+B_kra+")*("+B_kra+") + 3*("+A_kra+")*(("+B_kra+")^"+B_kra+")");
+document.write(B_kra+"^3 = "+C_kra+"+"+D_kra+"+"+E_kra+"+"+F_kra+"="+O_kra+"<br>");
+ </script>
+</div>
+</body>
+</html>
+</textarea>
+    </form>
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_krajewski()" />
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
