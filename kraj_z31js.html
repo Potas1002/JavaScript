@@ -1,0 +1,32 @@
+<html>
+ <head>
+ <script type="text/javascript">
+var wiezowiec = {
+ile_pieter: '28',
+wysokosc: '72m',
+ilosc_szyb: '1200',
+wiezowiec_wyswietl_krajewski: function ()
+{
+ document.write(this.ile_pieter + ' ' + this.wysokosc + ' ' + this.ilosc_szyb)
+ }
+}
+wiezowiec.wiezowiec_wyswietl_krajewski();
+wiezowiec.szerokosc="trochę długi, około 35 metrów";
+wiezowiec.wiezowiec_pokaz_krajewski=function() {alert('szerokosc: ' + this.szerokosc + ' ')}
+wiezowiec.wiezowiec_pokaz_krajewski();
+ </script>
+ </head>
+<body>
+<br>
+ Programowanie obiektowe. <br>
+ Obiekt to wiezowiec<br>
+ Pola:<br>
+ ile pięter<br>
+ wysokość<br>
+ ilość szyb<br>
+ metoda: <br>
+ wiezowiec_wyswietl_krajewski<br>
+ nowe pole to szerokosc <br>
+ nowa metoda to wiezowiec_pokaz_krajewski();<br>
+</body>
+</html>
