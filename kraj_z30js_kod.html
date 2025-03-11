@@ -1,0 +1,44 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function okno_zamknij_krajewski() {
+            window.close()
+        }
+    </script>
+</head>
+<body>
+<form>
+<textarea name="Krajewski" cols="120" rows="30" readonly>
+<html>
+ <head>
+ <script type="text/javascript">
+ var Wiezowiec = {
+ile_pieter: '28',
+wysokosc: '72m',
+ilosc_szyb: '1200',
+wiezowiec_wyswietl_Krajewski: function ()
+{
+ document.write(this.ile_pieter + ' ' + this.wysokosc + ' ' + this.ilosc_szyb)
+ }
+}
+Wiezowiec.wiezowiec_wyswietl_Krajewski();
+ </script>
+ </head>
+<body>
+<br>
+ Programowanie obiektowe. <br>
+ Obiekt to wiezowiec<br>
+ Pola:<br>
+ ile pieter<br>
+ wysokosc<br>
+ ilosc szyb<br>
+ metoda: wiezowiec_wyswietl_Krajewski<br>
+</body>
+</html>
+</textarea>
+    </form>
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_krajewski()" />
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
