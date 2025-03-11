@@ -1,0 +1,54 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function okno_zamknij_krajewski() {
+            window.close()
+        }
+    </script>
+</head>
+<body>
+<form>
+<textarea name="krajewski" cols="120" rows="30" readonly>
+<html>
+ <head>
+ <script type="text/javascript">
+ function wiezowieckrajewski(wiezowiec_s,ile_pieter_s,wysokosc_s,szerokosc_s)
+{
+this.wiezowiec=wiezowiec_s;
+this.ile_pieter=ile_pieter_s;
+this.wysokosc=wysokosc_s;
+this.szerokosc=szerokosc_s;
+}
+ wiezowieckrajewski.prototype.pokaz_krajewski = function () 
+ {
+ alert(this.wiezowiec + ' ' + this.ile_pieter+ ' ' + this.wysokosc+ ' ' + this.szerokosc);
+ };
+var Burj_Khalifa = new wiezowieckrajewski("Burj Khalifa", "163", "wysokosc: 828m", "64m"); 
+var Merdeka_118 = new wiezowieckrajewski("Merdeka 118", "118", "wysokosc: 679m", "61m");
+var Shanghai_Tower = new wiezowieckrajewski("Shanghai Tower","128","wysokosc: 632m", "59m");
+  
+Burj_Khalifa.pokaz_krajewski(); 
+Merdeka_118.pokaz_krajewski(); 
+Shanghai_Tower.pokaz_krajewski(); 
+  
+ document.write("dostęp do właściwości"+"<br>");
+  
+ document.write("wiezowiec 1: "+" "+Burj_Khalifa.wiezowiec+" "+Burj_Khalifa.ile_pieter+" "+Burj_Khalifa.wysokosc+" "+Burj_Khalifa.szerokosc+"<br>");
+ document.write("wiezowiec 2: "+" "+Merdeka_118.wiezowiec+" "+Merdeka_118.ile_pieter+" "+Merdeka_118.wysokosc+" "+Merdeka_118.szerokosc+"<br>");
+ document.write("wiezowiec 3: "+" "+Shanghai_Tower.wiezowiec+" "+Shanghai_Tower.ile_pieter+" "+Shanghai_Tower.wysokosc+" "+Shanghai_Tower.szerokosc+"<br>");
+
+  
+ </script> 
+ </head>
+<body>
+<br>
+ programowanie obiektowe 
+</body>
+</html>
+</textarea>
+    </form>
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_krajewski()" />
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
