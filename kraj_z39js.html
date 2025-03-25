@@ -1,0 +1,23 @@
+<html>
+ <head>
+ <script language="JavaScript">
+ function fun_kra() 
+ {
+ var x_kra = prompt("Podaj kolor", "");
+ if(x_kra == 1 || x_kra.toLowerCase() == "czerwony") {
+document.write('<h1 style="color:red;">wczytałeś kolor czerwony</h1><br>'); 
+} 
+ else if(x_kra == 2 || x_kra.toLowerCase() == "niebieski") {
+document.write('<h7 style="color:blue;">wczytałeś kolor niebieski</h7><br>');
+}
+}
+</script>
+<h1 style="color:green;">MENU</h1><br><br>
+
+<h2 style="color:red;">1-CZERWONY</h2>
+<h2 style="color:blue;">2-NIEBIESKI</h2>
+ 
+ <input type="button" name="nazwisko_ucznia" value="Oblicz" onclick="fun_kra()" />
+
+</body>
+</html>
