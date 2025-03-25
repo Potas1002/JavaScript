@@ -1,0 +1,32 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function okno_zamknij_krajewski() {
+            window.close()
+        }
+    </script>
+</head>
+<body>
+<form>
+<textarea name="Krajewski" cols="120" rows="30" readonly>
+<html> 
+ <body> 
+ <div> 
+    <script language="JavaScript"> 
+  var x=prompt("podaj liczbę x=",""); 
+               var a_kra=parseFloat(x);  
+               if(a_kra % 2==0) 
+                      {document.write("<font color=red size=3>liczba jest parzysta</font>"+"<br>");} 
+			         else
+			          {document.write("<font color=silver size=5>liczba  jest nieparzysta</font>"+"<br>");} 
+                  </script> 
+ </div> 
+ </body> 
+</html> 
+</textarea>
+    </form>
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_krajewski()" />
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
