@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang="pl"> 
+<head>  
+<meta charset="utf-8"> 
+<title>  </title> 
+
+<script language="JavaScript"> 
+
+ let l1_kra=prompt("podaj pierwszą liczbę=",""); 
+ let l2_kra=prompt("podaj drugą liczbę=",""); 
+ let w_kra;  
+  
+  if(l1_kra>l2_kra)
+  {
+  for(i=l2_kra;i<=l1_kra;i++)
+  {
+  if(i%2==1)
+  document.write("style="color:green;font-size:18px""+i+"<br>");
+  }
+  }
+  else if(l2_kra>l1_kra)
+  {
+  for(i=l1_kra;i<=l2_kra;i++)
+  { if(i%2==1)
+  document.write("style="color:blue;font-size:9px""+i+"<br>");
+ }
+  }
+  else
+  {
+  document.write("liczby są do siebie równe"); 
+  }
+
+</script> 
+
+</head>  
+<body>  
+</body>  
+</html>
