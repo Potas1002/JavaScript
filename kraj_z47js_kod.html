@@ -1,0 +1,52 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function okno_zamknij_krajewski() {
+            window.close()
+        }
+    </script>
+</head>
+<body>
+<form>
+<textarea name="Krajewski" cols="120" rows="30" readonly>
+<!DOCTYPE html>   
+<head>    
+<title>budowa trójkąta </title>    
+<meta charset="utf-8">   
+</head>  
+<body> 
+<div style="color:red;font-size:50px;"> 
+<script language="JavaScript"> 
+  do { 
+var liczba1=prompt("podaj bok a=",""); 
+var a_kra=parseFloat(liczba1); 
+} 
+while ( a_kra<=0); 
+
+  do { 
+var liczba2=prompt("podaj bok b=",""); 
+var b_kra=parseFloat(liczba2); 
+}
+while(!( b_kra>0)); 
+  
+  do { 
+var liczba3=prompt("podaj bok c=",""); 
+var c_kra=parseFloat(liczba3); 
+} 
+while ( c_kra<=0); 
+
+if( (a_kra+b_kra>c_kra) && (a_kra+c_kra>b_kra) && (c_kra+b_kra>a_kra))
+{
+document.write("Te boki tworzą trójkąt"<br>");  
+}
+</script>  
+</div> 
+</body> 
+</html> 
+</textarea>
+    </form>
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_krajewski()" />
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
